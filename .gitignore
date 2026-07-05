@@ -1,0 +1,17 @@
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment if it's inside this folder
+env/
+.venv/
+homl_env/
+
+# Ignore the raw datasets (they are too large for GitHub)
+datasets/
+
+# Ignore large saved model files
+models/*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
